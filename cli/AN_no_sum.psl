@@ -1,0 +1,21 @@
+// Neighbor has cat => has cat
+1.0: HasCat(A, C) & HasSimilarAN(A, B) & (A != B) >> HasCat(B, C) ^2
+1.0: HasCat(A, C) & HasSimilarAN(B, A) & (A != B) >> HasCat(B, C) ^2
+
+1.0: HasCat(A, C) & HasSimilarAF(A, B) & (A != B) >> HasCat(B, C) ^2
+1.0: HasCat(A, C) & HasSimilarAF(B, A) & (A != B) >> HasCat(B, C) ^2
+
+1.0: HasCat(A, C) & HasSimilarAD(A, B) & (A != B) >> HasCat(B, C) ^2
+1.0: HasCat(A, C) & HasSimilarAD(B, A) & (A != B) >> HasCat(B, C) ^2
+
+
+// Per category rules
+
+1.0: HasCat(A, 'Path') & HasSimilarAN(A, B) >> HasCat(B, 'Path') ^2
+1.0: HasCat(A, 'Benign') & HasSimilarAN(A, B) >> HasCat(B, 'Benign') ^2
+
+1.0: HasCat(A, 'Path') & HasSimilarAF(A, B) >> HasCat(B, 'Path') ^2
+1.0: HasCat(A, 'Benign') & HasSimilarAF(A, B) >> HasCat(B, 'Benign') ^2
+
+1.0: HasCat(A, 'Path') & HasSimilarAD(A, B) >> HasCat(B, 'Path') ^2
+1.0: HasCat(A, 'Benign') & HasSimilarAD(A, B) >> HasCat(B, 'Benign') ^2
