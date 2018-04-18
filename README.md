@@ -1,17 +1,12 @@
-### Citation Categories
+### Variant Classifier
 
 ## Problem
 
-In this example, we attempt to classify documents in a citation network into one of several categories.
+In this example, we attempt to classify variants based on allele number, mode of inheritance of disease, and allele frequency.
 
 ## Dataset
 
-The dataset originally came from Cora.
-It contains informations on the categories of some documents as well as links between those documents.
-The links are represented as only one predicate, but can represent several relationships between documents such as:
- - Hyperlinks
- - Citations
- - Shared Authorship
+The dataset is synthetic to provide a proof of concept of using machine learning to automate the assignment of weights to pieces of pathogenicity evidence.
 
 ## Origin
 
@@ -26,12 +21,4 @@ This example is a simplified version of one of the experiments from Bach et al.'
 }
 ```
 
-## Keywords
-
- - `cli`
- - `collective classification`
- - `evaluation`
- - `groovy`
- - `inference`
- - `real data`
- - `weight learning`
+It is based on the citation-categories example from the PSL developers. https://github.com/linqs/psl-examples/tree/master/citation-categories

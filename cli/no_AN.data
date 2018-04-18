@@ -1,0 +1,15 @@
+predicates:
+   HasCat/2: open
+   HasSimilarAF/2: closed
+   HasSimilarAD/2: closed
+
+observations:
+   HasCat: ../psl_data/path_obs_scaled.txt
+   HasSimilarAF: ../psl_data/HasSimilarAF-Ones.txt
+   HasSimilarAD: ../psl_data/HasSimilarAD-Ones.txt
+
+targets:
+   HasCat: ../psl_data/path_targets.txt
+
+truth:
+   HasCat: ../psl_data/path_truths_scaled.txt
