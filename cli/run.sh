@@ -14,18 +14,18 @@ function main() {
 
   #  AN
    runWeightLearning "AN_sum" "AN"
-  #  runEvaluation "AN_sum" "AN" "AN_sum_results"
-  #
-  #  runWeightLearning "AN_no_sum" "AN"
-  #  runEvaluation "AN_no_sum" "AN" "AN_no_sum_results"
-  # 
-  # #  No AN
-  #
-  #  runWeightLearning "no_AN_sum" "no_AN"
-  #  runEvaluation "no_AN_sum" "no_AN" "no_AN_sum_results"
-  #
-  #  runWeightLearning "no_AN_no_sum" "no_AN"
-  #  runEvaluation "no_AN_no_sum" "no_AN" "no_AN_no_sum_results"
+   runEvaluation "AN_sum" "AN" "AN_sum_results"
+
+   runWeightLearning "AN_no_sum" "AN"
+   runEvaluation "AN_no_sum" "AN" "AN_no_sum_results"
+
+  #  No AN
+
+   runWeightLearning "no_AN_sum" "no_AN"
+   runEvaluation "no_AN_sum" "no_AN" "no_AN_sum_results"
+
+   runWeightLearning "no_AN_no_sum" "no_AN"
+   runEvaluation "no_AN_no_sum" "no_AN" "no_AN_no_sum_results"
 
  }
 
