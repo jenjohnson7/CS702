@@ -1,0 +1,12 @@
+1.0: HASSIMILARAN(A, B) & HASCAT(A, C) & (A != B) >> HASCAT(B, C) ^2
+1.0: HASCAT(A, C) & HASSIMILARAN(B, A) & (A != B) >> HASCAT(B, C) ^2
+1.0: HASCAT(A, C) & HASSIMILARAF(A, B) & (A != B) >> HASCAT(B, C) ^2
+1.0: HASSIMILARAF(B, A) & HASCAT(A, C) & (A != B) >> HASCAT(B, C) ^2
+1.0: HASCAT(A, C) & HASSIMILARAD(A, B) & (A != B) >> HASCAT(B, C) ^2
+1.0: HASCAT(A, C) & HASSIMILARAD(B, A) & (A != B) >> HASCAT(B, C) ^2
+1.0: HASSIMILARAN(A, B) & HASCAT(A, 'Path') >> HASCAT(B, 'Path') ^2
+1.0: HASSIMILARAN(A, B) & HASCAT(A, 'Benign') >> HASCAT(B, 'Benign') ^2
+1.0: HASCAT(A, 'Path') & HASSIMILARAF(A, B) >> HASCAT(B, 'Path') ^2
+1.0: HASCAT(A, 'Benign') & HASSIMILARAF(A, B) >> HASCAT(B, 'Benign') ^2
+1.0: HASCAT(A, 'Path') & HASSIMILARAD(A, B) >> HASCAT(B, 'Path') ^2
+1.0: HASCAT(A, 'Benign') & HASSIMILARAD(A, B) >> HASCAT(B, 'Benign') ^2
