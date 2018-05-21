@@ -1,3 +1,7 @@
+Repository for Middlebury College Senior Thesis
+CS702 S18
+See dir manuscript and poster
+
 ### Variant Classifier
 
 ## Problem
